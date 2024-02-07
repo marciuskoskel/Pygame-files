@@ -12,7 +12,7 @@ class cal():  # Defineerib klassi
         return self.a - self.b
 
     def korrutamine(self):  # Defineerib korrutamise funktsiooni
-        return self.a * self.b5
+        return self.a * self.b
 
     def jagamine(self):  # Defineerib jagamise funktsiooni.
         return self.a / self.b
