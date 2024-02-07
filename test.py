@@ -1,29 +1,30 @@
 import math
 
+
 class cal():  # Defineerib klassi
-    def __init__(self, a, b):  # Defineerib konstruktor methodi a ja b jaoks.
-        self.a = a
-        self.b = b
+    def __init__(self, num1, num2):  # Defineerib konstruktor methodi a ja b jaoks.
+        self.num1 = a
+        self.num2 = b
 
     def liitmine(self):  # Defineerib liitmise funktsiooni.
-        return self.a + self.b
+        return self.num1 + self.num2
 
     def lahutamine(self):  # Defineerib lahutamise funktsiooni.
-        return self.a - self.b
+        return self.num1 - self.num2
 
     def korrutamine(self):  # Defineerib korrutamise funktsiooni
-        return self.a * self.b
+        return self.num1 * self.num2
 
     def jagamine(self):  # Defineerib jagamise funktsiooni.
-        return self.a / self.b
+        return self.num1 / self.num2
 
     def jaak(self):  # Defineerib jaagi funktsiooni.
-        return self.a % self.b
+        return self.num1 % self.num2
 
     def astendamine(self):  # Defineerib ruutjuure funktsiooni.
-        return self.a ** self.b
+        return self.num1 ** self.num2
     def ruutjuur(self):  # Defineerib ruutjuure
-        return math.sqrt(self.a)
+        return math.sqrt(self.num1)
 
 
 a = int(input("Sisesta esimene number: "))  # Kusib kasutajalt esimest numbrit mida sisestada.
